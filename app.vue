@@ -2,6 +2,23 @@
 useHead({
   link: [
     {
+      rel: "icon",
+      type: "image/x-icon",
+      sizes: "64x64",
+      href: "/icon.ico",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "512x512",
+      href: "/icon-512.png",
+    },
+    {
+      rel: "icon",
+      type: "image/svg+xml",
+      href: "/icon.svg",
+    },
+    {
       rel: "preconnect",
       href: "https://fonts.googleapis.com",
     },
@@ -15,6 +32,16 @@ useHead({
       href: "https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap",
     },
   ]
+})
+useSeoMeta({
+  ogType: 'website',
+  ogSite: 'speedrun.club',
+  ogImage: 'https://speedrun.club/icon-512.png',
+  twitterCard: 'summary',
+  twitterDnt: 'on',
+  ogColor: '#DD22AA',
+  themeColor: '#DD22AA',
+  ogLocale: 'en_US',
 })
 </script>
 

@@ -1,5 +1,10 @@
 <script setup lang="ts">
-
+useSeoMeta({
+  title: 'Speedrun Club',
+  ogTitle: 'Speedrun Club',
+  description: 'A family of web services created by and for fans of speedrunning.',
+  ogDescription: 'A family of web services created by and for fans of speedrunning.',
+})
 </script>
 
 <template>
