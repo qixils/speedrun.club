@@ -22,13 +22,15 @@ useSeoMeta({
             </template>
             A community-driven website and API for
             discovering archived videos of runs from speedrunning marathon events
-            like Games Done Quick (GDQ) and the European Speedrunner Assembly (ESA)
+            like Games Done Quick (GDQ) and the European Speedrunner Assembly (ESA).
         </UCard>
-        <UCard class="opacity-50 invisible md:visible">
+        <UCard>
             <template #header>
-                <p class="text-lg">&nbsp;</p>
+                <a href="https://archive.speedrun.club/" class="text-lg">archive.speedrun.club</a>
             </template>
-            <p>&nbsp;</p>
+            Search tool for metadata and videos archived from Twitch broadcasts.
+            Includes a majority of content publicly available from speedrun.com
+            before the highlights purge in April 2025.
         </UCard>
         <UCard class="opacity-50 invisible md:visible">
             <template #header>
