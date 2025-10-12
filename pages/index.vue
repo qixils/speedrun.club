@@ -29,8 +29,7 @@ useSeoMeta({
                 <a href="https://archive.speedrun.club/" class="text-lg">archive.speedrun.club</a>
             </template>
             Search tool for metadata and videos archived from Twitch broadcasts.
-            Includes a majority of content publicly available from speedrun.com
-            before the highlights purge in April 2025.
+            Includes a majority of the speedrun.com videos that were purged from Twitch in May 2025.
         </UCard>
         <UCard class="opacity-50 invisible md:visible">
             <template #header>
