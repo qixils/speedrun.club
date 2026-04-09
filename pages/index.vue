@@ -31,11 +31,19 @@ useSeoMeta({
             Search tool for metadata and videos archived from Twitch broadcasts.
             Includes a majority of the speedrun.com videos that were purged from Twitch in May 2025.
         </UCard>
+        <UCard>
+            <template #header>
+                <a href="https://highlights.speedrun.club/" class="text-lg">highlights.speedrun.club</a>
+            </template>
+            View improving and up-and-coming runners on speedrun.com leaderboards.
+        </UCard>
+        <!--
         <UCard class="opacity-50 invisible md:visible">
             <template #header>
                 <p class="text-lg">&nbsp;</p>
             </template>
             <p>&nbsp;</p>
         </UCard>
+        -->
     </div>
 </template>
